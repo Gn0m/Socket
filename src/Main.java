@@ -15,13 +15,6 @@ public class Main {
         thread.start();
         thread.join();
 
-        //Сокет UDP
-//        Thread res = new Thread(()->UDPReseiver.runReseiver("127.0.0.1", 1024));
-//        Thread.sleep(1000);
-//        Thread sen = new Thread(()-> UDPSender.runSender("127.0.0.1", 1024));
-//        res.start();
-//        sen.start();
-//        res.join();
-//        sen.join();
+      
     }
 }
